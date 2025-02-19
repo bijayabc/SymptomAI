@@ -103,7 +103,7 @@ export const Home = () => {
             />
           </div>
 
-          <p className="text-gray-600 text-center mt-6">Enter any additional information here.</p>
+          <p className="text-gray-600 text-center mt-6">Enter any additional relevant information here.</p>
           {/* Notes Bar */}
           <div className="relative mt-1">
             <input
@@ -112,7 +112,7 @@ export const Home = () => {
               onChange={(e) => {
                 setNotes(e.target.value);
               }}
-              placeholder="Fatigue, bloating, dizziness...."
+              placeholder="I went to the [location]. I had [type of cuisine] etc"
               className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
