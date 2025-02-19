@@ -1,0 +1,14 @@
+# Ignore environment files
+.env
+
+# Ignore dependency directories (if using Node.js or Python)
+node_modules/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and cache files
+*.log
+__pycache__/
